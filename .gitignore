@@ -1,27 +1,17 @@
 # Dependencies
-frontend/node_modules
-backend/venv
-backend/__pycache__
-frontend/.env
-backend/.env
+**/node_modules/
+**/node_modules/.cache/
+**/.cache/
 
-# Build files
-frontend/build
-frontend/dist
-frontend/.cache
-frontend/node_modules/.cache
+# Build outputs
+**/dist/
+**/build/
 
-# IDE files
-.vscode
-.idea
+# Environment files
+**/.env
 
-# OS files
+# System files
 .DS_Store
-*.log
 
-# Cache files
+# Large files
 *.pack
-*.pack.old
-frontend/node_modules/.cache/
-backend/__pycache__/
-*.pyc
